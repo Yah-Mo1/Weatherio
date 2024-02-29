@@ -13,7 +13,7 @@ import smoke from "../assets/smoke.png";
 import snow from "../assets/snow.png";
 import clear from "../assets/clear.png";
 import Grid from "@material-ui/core/Grid";
-
+//Changing
 export default function MediaCard(props: any) {
   if (!props.city || !props.city.main) {
     return null;
