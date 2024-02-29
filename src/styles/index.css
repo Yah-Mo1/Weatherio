@@ -1,0 +1,57 @@
+.section {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+/* App.css or your component-specific CSS file */
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust the space between the input and the button */
+  margin: 20px 0;
+}
+
+.searchBar input {
+  padding: 10px;
+  font-size: 16px; /* Adjust the text size inside the input */
+  border: 2px solid #ccc; /* Light grey border */
+  border-radius: 4px; /* Slightly rounded corners for the input */
+  width: 250px; /* Adjust based on your preference */
+  outline: none; /* Removes the outline to avoid distraction */
+}
+
+.searchBar input:focus {
+  border-color: #007bff; /* Changes the border color to a blue when focused */
+}
+
+.searchBar button {
+  padding: 10px 20px;
+  font-size: 16px; /* Match the input text size */
+  background-color: #007bff; /* A pleasant blue */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Match the input border-radius */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.searchBar button:hover {
+  background-color: #0056b3; /* A darker blue on hover */
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+}
