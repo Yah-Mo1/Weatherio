@@ -9,7 +9,7 @@ function App() {
   const [title, setTitle] = useState("");
   const fetchData = async (title: string) => {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${title}&appid=33b14af210a3c5c2ef5caed4f805c959`
+      `https://api.openweathermap.org/data/2.5/weather?q=${title}&appid={API_KEY}`
     )
       .then((response) => response.json())
       .then((result) => {
